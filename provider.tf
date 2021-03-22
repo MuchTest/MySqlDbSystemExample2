@@ -1,4 +1,5 @@
-ncy_ocid = " " # here you add your tenancy ocid
+provider "oci" {
+  tenancy_ocid = " " # here you add your tenancy ocid
   user_ocid = " " # here you add your user ocid
   private_key_path = " " # here you add your .oci key path
   fingerprint = " " # here you add your fingerprint
